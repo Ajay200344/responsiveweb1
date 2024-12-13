@@ -1,0 +1,81 @@
+.main {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+.box1 {
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2 {
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    text-align: center;
+    
+}
+.image {
+    position: relative;
+    
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+   .box1 {
+    animation: scale 1.5s alternate infinite ease-in;
+   }
+   .box2 {
+    animation: scale 1.5s alternate infinite ease-in;
+   }
+   .box3 {
+    animation: scale 1.5s alternate infinite ease-in;
+   }
+   .box4 {
+    animation: scale 1.5s alternate infinite ease-in;
+   }
+  }
+  @keyframes scale {
+    0%   {transform: scale(.8);}
+    100% {transform: scale(1.1);}
+  }
